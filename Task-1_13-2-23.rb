@@ -1,9 +1,10 @@
 class Product    
   def initialize(name,price)
-  @pname=name
-  @pprice=price
+    @pname=name
+    @pprice=price
   end
-   def calc()
+  
+  def calc()
      puts "Welcome #{@@pn}. Your invoice with 5% gst are below"
      puts "product details"
      final=@pprice.to_i;
