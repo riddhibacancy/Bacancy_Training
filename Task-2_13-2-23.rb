@@ -17,3 +17,8 @@ end
 obj1 = Company.new("Ridham", "Microsoft")
 obj1.display_city
 
+
+// will it work?
+// puts Company.new("Ridham", "Microsoft").display_city 
+
+
